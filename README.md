@@ -6,11 +6,11 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/NoImpactNoIdea/BashKit)
 ![GitHub issues](https://img.shields.io/github/issues/NoImpactNoIdea/BashKit)
 
-This repository, BashKit, contains a robust multi-file Bash script setup designed for managing large projects by separating concerns and improving reusability. It provides a solid foundation for building and organizing Bash scripts in a modular fashion.
+This repository contains a Bash script setup designed for managing large projects by separating concerns. The goal is to provide a template along with a suite of tools that can be used whether for pre-commit hooks or general usage.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running on your local machine for development.
 
 ### Prerequisites
 
@@ -18,16 +18,34 @@ Ensure you have Bash installed on your system. You can verify this by running:
 
 ```bash
 bash --version
+```
 
-# Installation
-# Clone this repository to set up the script on your local machine:
+### Installation
+
+```bash
 git clone https://github.com/NoImpactNoIdea/BashKit.git
-cd BashKit
-chmod +x bin/main.sh
+```
 
-# Usage
-# To run the script, execute the following command in the terminal:
+```bash
+cd BashKit
+```
+
+```bash
+chmod +x bin/main.sh || u+x
+```
+
+## Usage
+
+### To run main.sh, execute the following command in the terminal:
+
+```bash
 ./bin/main.sh
+```
+
+### To check directory casing, execute the following command in a directory with multiple folders:
+
+```bash
+./bin/force_lower_case.sh
 ```
 
 ## Contributing
@@ -36,4 +54,4 @@ Contributions to improve the script or its documentation are welcome. Please for
 
 ## Support
 
-For support or queries, raise an issue in the GitHub repository or contact the repository maintainers directly.
+For support or queries, raise an issue in the GitHub repo.
